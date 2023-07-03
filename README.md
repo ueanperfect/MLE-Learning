@@ -4,17 +4,17 @@
 
 ### 计算机视觉类
 
-| 论文标题                                                     | 解析文章                                               | 完成  |
-|----------------------------------------------------------|----------------------------------------------------|-----|
-| [Transformer](https://arxiv.org/abs/1706.03762)          | [知乎](https://zhuanlan.zhihu.com/p/48508221)        | ✅   |
-| [Swin Transformer](https://arxiv.org/abs/2103.14030)     | [李沐](https://www.bilibili.com/video/BV13L4y1475U/) | ✅   |
-| [Vision Transformer](https://arxiv.org/abs/2010.11929)   | [李沐](https://www.bilibili.com/video/BV15P4y137jb/) | ✅   |
-| [DETR](https://arxiv.org/abs/2005.12872)                 |                                                    |     |
-| [RT-DETR](https://arxiv.org/abs/2304.08069)              |                                                    |     |
-| [ResNet](https://arxiv.org/abs/1512.03385)               |                                                    | ✅   |
-| [GAN](https://arxiv.org/abs/1406.2661)                   |                                                    | ✅   |
-| [MoCo]()                                                 | [李沐](https://www.bilibili.com/video/BV1C3411s7t9/) |     |
-| [Clip](https://arxiv.org/pdf/2103.00020.pdf)             |                                                    | ✅   |
+| 论文标题                                                     | 解析文章                                                | 完成  |
+|----------------------------------------------------------|-----------------------------------------------------|-----|
+| [Transformer](https://arxiv.org/abs/1706.03762)          | [知乎](https://zhuanlan.zhihu.com/p/48508221)         | ✅   |
+| [Swin Transformer](https://arxiv.org/abs/2103.14030)     | [李沐](https://www.bilibili.com/video/BV13L4y1475U/)  | ✅   |
+| [Vision Transformer](https://arxiv.org/abs/2010.11929)   | [李沐](https://www.bilibili.com/video/BV15P4y137jb/)  | ✅   |
+| [DETR](https://arxiv.org/abs/2005.12872)                 | [李沐](https://www.bilibili.com/video/BV1GB4y1X72R/)  | ✅   |
+| [RT-DETR](https://arxiv.org/abs/2304.08069)              |                                                     |     |
+| [ResNet](https://arxiv.org/abs/1512.03385)               |                                                     | ✅   |
+| [GAN](https://arxiv.org/abs/1406.2661)                   |                                                     | ✅   |
+| [MoCo](https://arxiv.org/abs/1911.05722)                 | [李沐](https://www.bilibili.com/video/BV1C3411s7t9/)  |     |
+
 
 ### 自然语言类
 
@@ -26,11 +26,14 @@
 | [Instruct GPT](https://arxiv.org/pdf/2203.02155.pdf)   | [李沐](https://www.bilibili.com/video/BV1hd4y187CR/)   |     |
 
 ### 多模态
-| 论文标题                                             | 解析文章                                               | 完成  |
-|--------------------------------------------------|-----------------------------------------------------|-----|
-| [Transformer](https://arxiv.org/abs/1706.03762)  | [知乎](https://zhuanlan.zhihu.com/p/48508221)        | ✅   |
-| [DALL.E2](https://arxiv.org/pdf/2204.06125.pdf)  | [openai](https://openai.com/product/dall-e-2)      | ✅   |
-| [ViLT](https://arxiv.org/pdf/2102.03334.pdf)     | [李沐](https://www.bilibili.com/video/BV14r4y1j74y)  |     |
+| 论文标题                                            | 解析文章                                               | 完成  |
+|-------------------------------------------------|-----------------------------------------------------|-----|
+| [Transformer](https://arxiv.org/abs/1706.03762) | [知乎](https://zhuanlan.zhihu.com/p/48508221)        | ✅   |
+| [DALL.E2](https://arxiv.org/pdf/2204.06125.pdf) | [openai](https://openai.com/product/dall-e-2)      | ✅   |
+| [ViLT](https://arxiv.org/pdf/2102.03334.pdf)    | [李沐](https://www.bilibili.com/video/BV14r4y1j74y)  | ✅   |
+| [Clip](https://arxiv.org/pdf/2103.00020.pdf)    | [李沐](https://www.bilibili.com/video/BV1FV4y1p7Lm/)  | ✅   |
+| [lls]()                                         |                                                     |     |
+
 
 ## 待学习网课
 | 网课内容                                                                                             | 完成  |

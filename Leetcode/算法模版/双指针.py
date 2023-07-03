@@ -13,7 +13,7 @@ def removeDuplicates(nums: List[int]) -> int:
             slow += 1
         fast += 1
     # 数组长度为索引 + 1
-    return slow +
+    return slow
 
 '''
 滑动窗口
@@ -69,7 +69,7 @@ def binarySearch_for_left(nums: List[int], target: int) -> int:
             right = mid - 1
     return left
 
-def def binarySearch_for_right(nums: List[int], target: int) -> int:
+def binarySearch_for_right(nums: List[int], target: int) -> int:
     # 一左一右两个指针相向而行
     left = 0
     right = len(nums)-1

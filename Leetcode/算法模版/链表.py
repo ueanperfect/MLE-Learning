@@ -45,7 +45,7 @@ def partition(head: ListNode, x: int) -> ListNode:
     return dummy1.next
 
 '''
-反转列表
+反转整个列表
 '''
 # 定义：输入一个单链表头节点，将该链表反转，返回新的头结点
 def reverse(head: ListNode) -> ListNode:
@@ -56,6 +56,9 @@ def reverse(head: ListNode) -> ListNode:
     head.next = None
     return last
 
+'''
+反转前N个节点
+'''
 successor = None # 后继节点
 # 反转以 head 为起点的 n 个节点，返回新的头节点
 def reverseN(head: ListNode, n: int) -> ListNode:
@@ -66,8 +69,34 @@ def reverseN(head: ListNode, n: int) -> ListNode:
         return head
     # 以 head.next 为起点，需要反转前 n - 1 个节点
     last = reverseN(head.next, n - 1)
-
     head.next.next = head
     # 让反转之后的 head 节点和后面的节点连起来
     head.next = successor
     return last
+
+'''
+k次反转N个节点
+'''
+
+
+class Solution:
+    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        a, b = head, head
+        for i in range(k):
+            if not b:
+                return head
+            b = b.next
+        tail = self.reverseK(a, b)
+        a.next = self.reverseKGroup(b, k)
+        return tail
+
+    def reverseK(self, a, b):
+        pre, cur, nxt = None, a, a
+        # while  终止的条件改一下就行了
+        while cur != b:
+            nxt = cur.next
+            cur.next = pre
+            pre = cur
+            cur = nxt
+        # 返回反转后的头结点
+        return pre
